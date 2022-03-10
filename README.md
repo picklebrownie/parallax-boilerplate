@@ -3,6 +3,8 @@ Parallax Scrolling
 </h1>
 
 Hi there :wave:
+
+
 If you're implementing parallax scrolling in Laravel and tailwindcss, you've come to the right place! I started this project as I was working on my portfolio peice. I wanted to showcase my creativity, and I decided that parallax scrolling is modern, poppy, versatile, and overall just pretty darn cool. I thought it would be straightforward or easy to implement, but I was wrong!
 
 Parallax is a term used by astronomers to describe the observed displacement of an object caused by the change of the observer's point of view. Astronomers use the principle of parallax to do things such as measure how far away stars and planets are. Developers use parallax to make stuff look _really_ cool. Now knowing more about what parallax is, I realize that a lot more math goes into creating a smooth and well organized parallax effect than I originally anticipated... I'm reaching for the stars and hoping that one day, this boilerplate project will grow into the perfect parallax template for Laravel and tailwindcss developers.
