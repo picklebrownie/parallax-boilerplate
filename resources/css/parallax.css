@@ -1,0 +1,38 @@
+.parallax-wrapper {
+    @apply h-screen overflow-x-hidden overflow-y-auto snap-y;
+    perspective: 300px;
+    perspective-origin-x: 100%;
+    scroll-snap-type: y mandatory;
+}
+
+.parallax-wrapper .parallax-group {
+    @apply h-screen relative snap-center scroll-mt-0;
+    transform-style: preserve-3d;
+}
+
+.parallax-wrapper .parallax-group .parallax-footer {
+    @apply absolute inset-x-20 bottom-16;
+}
+
+.parallax-wrapper .parallax-group .parallax-layer {
+    @apply absolute inset-0 flex justify-center items-center;
+}
+
+.parallax-wrapper .parallax-group .parallax-content {
+    @apply absolute inset-0 flex justify-center items-center;
+    z-index: 0;
+}
+.content {
+    @apply bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg max-w-3xl mx-auto sm:px-6 lg:px-20 p-12 text-gray-600 dark:text-gray-400 text-sm;
+}
+
+.parallax-wrapper .parallax-group .parallax-title {
+    @apply absolute inset-0 flex justify-center items-start mt-8 lg:mt-24 xl:mt-40 ml-4 text-lg leading-7 font-semibold text-4xl text-gray-700 dark:text-gray-300;
+    z-index: 1;
+}
+
+.parallax-wrapper .parallax-group .parallax-icon {
+    @apply absolute inset-0 flex justify-center items-start mt-20 lg:mt-36 xl:mt-52;
+    z-index: 0;
+}
+
