@@ -1,9 +1,11 @@
+<img align="right" src="public/images/laravel_logo.png" width="200">
+<img align="right" src="public/images/tailwindcss_logo.png" width="200">
+
 <h1 align="center">
 Parallax Scrolling
 </h1>
 
 Hi there :wave:
-
 
 If you're implementing parallax scrolling in Laravel and tailwindcss, you've come to the right place! I started this project as I was working on my portfolio peice. I wanted to showcase my creativity, and I decided that parallax scrolling is modern, poppy, versatile, and overall just pretty darn cool. I thought it would be straightforward or easy to implement, but I was wrong!
 
