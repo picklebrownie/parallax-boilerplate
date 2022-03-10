@@ -4,7 +4,7 @@
         @include('includes.head')
         <link href="{{ asset('css/parallax.css') }}" rel="stylesheet">
     </head>
-    <body class="antialiased bg-gray-100 dark:bg-gray-900">
+    <body class="antialiased">
         <div class="parallax-wrapper">
             @yield('content')
         </div>
