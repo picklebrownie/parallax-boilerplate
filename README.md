@@ -1,64 +1,31 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<h1 align="center">
+Parallax Scrolling
+</h1>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Hi there :wave:
+If you're implementing parallax scrolling in Laravel and tailwindcss, you've come to the right place! I started this project as I was working on my portfolio peice. I wanted to showcase my creativity, and I decided that parallax scrolling is modern, poppy, versatile, and overall just pretty darn cool. I thought it would be straightforward or easy to implement, but I was wrong!
 
-## About Laravel
+Parallax is a term used by astronomers to describe the observed displacement of an object caused by the change of the observer's point of view. Astronomers use the principle of parallax to do things such as measure how far away stars and planets are. Developers use parallax to make stuff look _really_ cool. Now knowing more about what parallax is, I realize that a lot more math goes into creating a smooth and well organized parallax effect than I originally anticipated... I'm reaching for the stars and hoping that one day, this boilerplate project will grow into the perfect parallax template for Laravel and tailwindcss developers.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## What's included in the boilerplate?
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+This boilerplate is built on Laravel v9.2 and uses tailwindcss v3.0.23 and css to acheive a smooth parallax scrolling effect on any element. In `resources/css/parallax.css` you will find seven parallax layers ready for you to use. I've left plenty of comments in my code so that any fellow developers who pick up this boilerplate can easily work in the codebase and have a sense of the vision. 
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+I've left the built-in Laravel landing page so that you may see how a bit of creativity and time can transform an entire site. In `resources/views/pages/parallax.blade.php` you will find the implementation of tailwindcss and parallax scrolling. Be sure to read the comments - parallax scrolling is very specific on how it likes to be displayed, translated, and scaled. I've included comments on what I have and haven't figured out yet, so please be cautious if you want to rearrange or add more groups because I'm not sure if it wuld continue to display properly. What I've put together is no where near perefct, but it certainly works and looks beautiful!
 
-## Learning Laravel
+#### Languages, Frameworks, and Tools used
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- Laravel 9
+- tailwindcss 3.0
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+If you're interested to see how the code came to be, check out the git history - the initial commit was immediately following the Laravel installation so that the community can see exactly how I'm using the tools available to us. 
 
-## Laravel Sponsors
+## What's next?
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+At this time, the translateZ values were picked from good vibes, not math. Next, I will learn the maths behind parallax scrolling so that I may pick the translations values with full understanding of how the layers will interact with each other in the viewport. Then, I will design several templates with excellent documentation, making it easier for anyone to learn and implement the proper basics of parallax.
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+This boilerplate is an open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
