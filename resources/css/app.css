@@ -1,3 +1,83 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.parallax-wrapper {
+    @apply h-screen overflow-x-hidden overflow-y-auto /*snap-y*/;
+    perspective: 300px;
+    perspective-origin-x: 100%;
+    scroll-snap-type: y mandatory;
+}
+
+.parallax-wrapper .parallax-group {
+    @apply h-screen relative /*snap-center scroll-mt-28*/;
+    transform-style: preserve-3d;
+}
+
+.parallax-wrapper .parallax-group .parallax-backdrop {
+    @apply absolute inset-0 flex justify-center items-end;
+}
+
+.parallax-wrapper .parallax-group .parallax-layer {
+    @apply absolute inset-0 flex justify-center items-center;
+}
+
+.parallax-wrapper .parallax-group .parallax-title {
+    @apply absolute inset-0 flex justify-center items-start;
+}
+
+.parallax-wrapper .parallax-group .base {
+    transform: translateZ(0);
+    z-index: 40;
+}
+
+.parallax-wrapper .parallax-group .overbase {
+    transform: translateZ(21px) scale(.93);
+    z-index: 42;
+}
+
+.parallax-wrapper .parallax-group .overbase2 {
+    transform: translateZ(30px) scale(.9);
+    z-index: 43;
+}
+
+.parallax-wrapper .parallax-group .fore {
+    transform: translateZ(90px) scale(.7);
+    z-index: 30;
+}
+
+.parallax-wrapper .parallax-group .back {
+    transform: translateZ(-240px) scale(1.8);
+    z-index: 20;
+}
+
+.parallax-wrapper .parallax-group .deep {
+    transform: translateZ(-600px) scale(3);
+    z-index: 10;
+}
+
+/*
+
+    Layer Naming Convention
+
+        > base > 3 > translateZ(0)
+
+    -- Layer Up
+
+        > fore-ish > 4
+        > fore > 5
+        > fore-most > 6
+
+    -- Layer Down
+
+        > hind-ish > 2
+        > hind > 1
+        > hind-most > 0
+
+
+
+    You must use base on the first parallax group
+    You can use base many times in a row, but not the same with back and deep
+    
+
+*/
