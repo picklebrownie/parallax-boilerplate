@@ -11,6 +11,26 @@ If you're implementing parallax scrolling in Laravel and tailwindcss, you've com
 
 Parallax is a term used by astronomers to describe the observed displacement of an object caused by the change of the observer's point of view. Astronomers use the principle of parallax to do things such as measure how far away stars and planets are. Developers use parallax to make stuff look _really_ cool. Now knowing more about what parallax is, I realize that a lot more math goes into creating a smooth and well organized parallax effect than I originally anticipated... I'm reaching for the stars and hoping that one day, this boilerplate project will grow into the perfect parallax template for Laravel and tailwindcss developers.
 
+## Getting Started
+
+install PHP dependencies
+
+```
+composer i
+```
+
+install node dependencies
+
+```
+npm i
+```
+
+run laravel sail as a background process
+
+```
+./vendor/bin/sail up -d
+```
+
 ## What's included in the boilerplate?
 
 This boilerplate is built on Laravel v9.2 and uses tailwindcss v3.0.23 and css to acheive a smooth parallax scrolling effect on any element. In `resources/css/parallax.css` you will find seven parallax layers ready for you to use. I've left plenty of comments in my code so that any fellow developers who pick up this boilerplate can easily work in the codebase and have a sense of the vision. 
