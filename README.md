@@ -45,6 +45,14 @@ open the project in your browser
 http://localhost
 ```
 
+When deploying to vercel, be sure to run 
+
+```
+npm run dev
+```
+
+before pushing to your repository. This will ensure that the tailwindcss styles are compiled and ready for production.
+
 ## What's included in the boilerplate?
 
 This boilerplate is built on Laravel v9.2 and uses tailwindcss v3.0.23 and css to acheive a smooth parallax scrolling effect on any element. In `resources/css/parallax.css` you will find seven parallax layers ready for you to use. I've left plenty of comments in my code so that any fellow developers who pick up this boilerplate can easily work in the codebase and have a sense of the vision. 
