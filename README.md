@@ -25,10 +25,24 @@ install node dependencies
 npm i
 ```
 
+copy the `.env.example` file to .env
+
+set the application key by running
+
+``` 
+php artisan key:generate
+```
+
 run laravel sail as a background process
 
 ```
 ./vendor/bin/sail up -d
+```
+
+open the project in your browser
+
+```
+http://localhost
 ```
 
 ## What's included in the boilerplate?
