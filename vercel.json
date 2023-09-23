@@ -14,7 +14,7 @@
         "APP_ENV": "production",
         "APP_DEBUG": "true",
         "APP_URL": "https://parallax-boilerplate.vercel.app",
-        "ASSET_URL":"https://parallax-boilerplate.vercel.app",
+        "ASSET_URL":"https://parallax-boilerplate.vercel.app/public",
 
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
